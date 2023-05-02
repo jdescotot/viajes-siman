@@ -47,6 +47,7 @@ export default function Viajes() {
           ))}
         </select>
       </div>
+      <button onClick={handleAsignarViajes}>Asignar Viajes</button>
     </div>
   );
 }
